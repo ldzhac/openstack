@@ -1,0 +1,5 @@
+制作bootstrap:
+    1. 修改制作源为本地源 /etc/fuel-bootstrap-cli/fuel_bootstrap_cli.yaml
+    2. 制作镜像 fuel-bootstrap build
+    3. 导入镜像 fuel-bootstrap import /tmp/{uuid}.tar.gz
+    4. 激活镜像 fuel-bootstrap activate {uuid}
